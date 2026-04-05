@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-rgb: 248, 250, 252;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 248, 250, 252;
+    --background-rgb: 15, 23, 42;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Shift status colors */
+.shift-draft { @apply bg-gray-100 border-gray-300 text-gray-700; }
+.shift-published { @apply bg-blue-100 border-blue-300 text-blue-700; }
+.shift-confirmed { @apply bg-green-100 border-green-300 text-green-700; }
+.shift-completed { @apply bg-purple-100 border-purple-300 text-purple-700; }
+.shift-cancelled { @apply bg-red-100 border-red-300 text-red-700; }
+
+/* Department colors */
+.dept-operations { @apply bg-blue-500; }
+.dept-sales { @apply bg-green-500; }
+.dept-support { @apply bg-yellow-500; }
+.dept-kitchen { @apply bg-orange-500; }
+.dept-floor { @apply bg-teal-500; }
+.dept-default { @apply bg-gray-500; }
