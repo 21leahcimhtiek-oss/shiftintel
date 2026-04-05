@@ -1,0 +1,25 @@
+{
+  "id": "shiftintel",
+  "name": "ShiftIntel",
+  "tagline": "AI-driven workforce scheduling and shift intelligence",
+  "description": "ShiftIntel is an enterprise SaaS platform that uses AI to optimize workforce scheduling, eliminate coverage gaps, forecast labor costs, and ensure compliance across your entire organization.",
+  "version": "1.0.0",
+  "category": "HR & Workforce Management",
+  "basePrice": 59,
+  "currency": "USD",
+  "billingPeriod": "monthly",
+  "website": "https://shiftintel.com",
+  "supportEmail": "support@shiftintel.com",
+  "features": [
+    "AI-powered shift scheduling",
+    "Coverage gap detection",
+    "Labor cost forecasting",
+    "Compliance tracking",
+    "Time-off management",
+    "Multi-department support",
+    "Real-time coverage scores",
+    "Overtime alerts"
+  ],
+  "integrations": ["Supabase", "Stripe", "OpenAI GPT-4o", "Sentry"],
+  "targetMarket": ["Retail", "Healthcare", "Hospitality", "Manufacturing", "Logistics"]
+}
