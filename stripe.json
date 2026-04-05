@@ -1,0 +1,74 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price_monthly": 59,
+      "price_annual": 590,
+      "stripe_price_id_monthly": "price_starter_monthly",
+      "stripe_price_id_annual": "price_starter_annual",
+      "limits": {
+        "employees": 25,
+        "locations": 1,
+        "schedules_per_month": 10,
+        "ai_generations_per_month": 5
+      },
+      "features": [
+        "Up to 25 employees",
+        "1 location",
+        "Basic shift scheduling",
+        "Time-off management",
+        "Coverage rules",
+        "Email support"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price_monthly": 149,
+      "price_annual": 1490,
+      "stripe_price_id_monthly": "price_pro_monthly",
+      "stripe_price_id_annual": "price_pro_annual",
+      "limits": {
+        "employees": 100,
+        "locations": 5,
+        "schedules_per_month": -1,
+        "ai_generations_per_month": 50
+      },
+      "features": [
+        "Up to 100 employees",
+        "5 locations",
+        "AI schedule generation",
+        "Labor cost forecasting",
+        "Advanced analytics",
+        "Priority support",
+        "Slack integration"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price_monthly": 349,
+      "price_annual": 3490,
+      "stripe_price_id_monthly": "price_enterprise_monthly",
+      "stripe_price_id_annual": "price_enterprise_annual",
+      "limits": {
+        "employees": -1,
+        "locations": -1,
+        "schedules_per_month": -1,
+        "ai_generations_per_month": -1
+      },
+      "features": [
+        "Unlimited employees",
+        "Unlimited locations",
+        "AI schedule generation",
+        "Labor cost forecasting",
+        "Compliance tracking & reports",
+        "REST API access",
+        "SSO / SAML",
+        "Dedicated account manager",
+        "SLA guarantee"
+      ]
+    }
+  ]
+}
