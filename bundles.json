@@ -1,0 +1,27 @@
+{
+  "bundles": [
+    {
+      "id": "aurora-hr-suite",
+      "name": "Aurora HR Suite",
+      "description": "Complete HR automation bundle combining ShiftIntel workforce scheduling with TalentPulse talent management.",
+      "products": [
+        { "id": "shiftintel", "name": "ShiftIntel", "plan": "pro" },
+        { "id": "talentpulse", "name": "TalentPulse", "plan": "pro" }
+      ],
+      "discount_percent": 20,
+      "individual_price": 298,
+      "bundle_price": 238,
+      "savings_per_month": 60,
+      "stripe_bundle_price_id": "price_aurora_hr_suite_monthly",
+      "features": [
+        "AI shift scheduling + optimization",
+        "Labor cost forecasting",
+        "Talent pipeline management",
+        "Performance tracking",
+        "Unified employee profiles",
+        "Compliance & audit logs"
+      ],
+      "target_company_size": "50-500 employees"
+    }
+  ]
+}
